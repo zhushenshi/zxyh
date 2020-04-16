@@ -1,0 +1,90 @@
+main-color = #daab5b
+main-bgColor = #daab5b
+@import "../../common/stylus/variable"
+bg-img($url)
+  background-image: url($url + '@2x.png')
+  @media (-webkit-min-device-pixel-ratio: 3),(min-device-pixel-ratio: 3)
+    background-image: url($url + '@3x.png')
+
+border-1px($color)
+  position: relative
+  &:after
+    position: absolute
+    content: ''
+    left: 0
+    bottom: 0
+    width: 100%
+    border-bottom: 1px solid $color
+
+@media (-webkit-min-device-pixel-ratio: 1.5),(min-device-pixel-ratio: 1.5)
+  .border-1px
+    &:after
+      -webkit-transform: scaleY(0.67)
+      transform: scaleY(0.67)
+
+@media (-webkit-min-device-pixel-ratio: 2),(min-device-pixel-ratio: 2)
+  .border-1px
+    &:after
+      -webkit-transform: scaleY(0.5)
+      transform: scaleY(0.5)
+
+border-none()
+  &:after
+    border: none
+.app-root
+  .btnDisable
+    background #BBBBBB
+.base-button-container{
+  margin: 20px 30px
+  padding-bottom: 30px
+  .base-button{
+    background: $color-primary
+    color: #ffffff
+    height 44px
+    line-height: 44px
+    border-radius: 5px
+    font-size:17px;
+    font-family:FZLanTingHeiS-R-GB;
+    font-weight:400;
+    color:rgba(255,255,255,1);
+  }
+}
+.loanapply{
+  .item-value{
+    .mint-cell-value{
+      margin-right 20px
+    }
+  }
+  .item-field{
+    .mint-cell-title{
+      text-align left
+    }
+    .mint-cell-value{
+      input{
+        text-align right
+      }
+    }
+  }
+}
+.mint-cell-text{
+  font-size:13px;
+  font-family:FZLanTingHeiS-R-GB;
+  font-weight:400;
+  color:rgba(51,51,51,1);
+}
+.items{
+  .mint-cell-text{
+    font-size:16px;
+    font-family:PingFang SC;
+    font-weight:500;
+    color:rgba(51,51,51,1);
+  }
+}
+.noMsg img
+    width: 100px;
+    margin-top: 25%
+.noMsg p
+  font-size 14px
+  color #b7b7b7
+  margin-top 10px
+

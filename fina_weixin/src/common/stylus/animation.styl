@@ -1,0 +1,61 @@
+.pageView
+  position fixed
+  z-index 100
+  left 0
+  top 0
+  bottom 0
+  width 100%
+  background #F6F6F6
+  transition all 0.4s ease
+  -webkit-transition all .4s ease
+  -moz-transition all .4s ease
+  &.move-enter-avtive,&.move-leave-active
+    transform translate3d(0, 0, 0)
+    -webkit-transform translate3d(0, 0, 0)
+    -moz-transform translate3d(0, 0, 0)
+
+  &.move-enter,&.move-leave-active
+    transform translate3d(100%, 0, 0)
+    -webkit-transform translate3d(100%, 0, 0)
+    -moz-transform translate3d(100%, 0, 0)
+.top-tip
+    position absolute
+    top -40px
+    left 0
+    z-index 1
+    width 100%
+    height 40px
+    line-height 40px
+    text-align center
+    color #555
+.bottom-tip
+    //position absolute
+    //top 50%
+    //margin-top -17.5px
+    width 100%
+    // height 35px
+    line-height 35px
+    text-align center
+    color #777
+    //background-color rgba(0,0,0,0)!important
+    background #f2f2f2
+    .noinfo{
+      position absolute
+      top 50%
+      width 100%
+      left 0
+      margin-top -17.5px
+    }
+.alertTips
+    display block
+    position fixed
+    top 0
+    left 0
+    z-index 100
+    width 100%
+    height 35px
+    line-height 35px
+    text-align center
+    color #fff
+    font-size: 12px
+    background rgba(7, 17, 27, 0.7)

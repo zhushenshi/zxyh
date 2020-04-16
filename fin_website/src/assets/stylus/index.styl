@@ -1,0 +1,138 @@
+@import './variables.styl';
+@import './comm.styl';
+@import './reset.styl';
+html{
+  font-size:62.5%;
+  box-sizing: border-box;
+  line-height: 2.2rem;
+}
+.wrapper
+  overflow:hidden
+  width 100%
+.content
+  width 1200px
+  margin 0 auto
+.fr {
+  float: right;
+}
+.fl {
+  float: left;
+}
+.text-left
+  text-align: left
+.text-right
+  text-align: right
+.text-center
+  text-align: center
+.margin-left
+  margin-left: 10px
+.margin-right
+  margin-right: 10px
+.nomargin
+  margin: 0
+.text
+  color: $text-color
+.text-red
+  color: $red-color
+a
+  color: $text-color
+  text-decoration: none
+a:hover
+  color: $red-color
+.bg-white
+  background-color #ffffff
+.clearfix {
+  &:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
+  }
+}
+.mt30
+  margin-top 30px
+.mb30
+  margin-bottom 30px
+.mt15
+  margin-top 15px
+.mb15
+  margin-bottom 15px
+.moneyColor
+  color: $red-color
+.infoColor
+  color: #ff6461
+.infoTipsColor
+  color: #ff9600
+
+//样式重置
+.el-dialog
+  .el-dialog__header
+    color red
+    padding: 0 2px;
+    margin 0 20px
+    border-bottom: 1px solid #e2e2e2;
+    line-height: 42px;
+    .el-dialog__title
+      font-size 1.4rem
+      font-weight bold
+    .el-dialog__headerbtn
+      font-size 24px
+      font-weight bold
+      top 10px
+  .el-dialog__body
+    padding: 12px 20px 25px;
+    .el-table
+      font-size:12px;
+      color: #333333
+    .el-table thead tr th
+      background-color: #fafafa;
+      font-weight:bold;
+      color:#666666;
+      padding:10px 0;
+    .el-table th, .el-table tr,.el-table td
+      text-align center
+    .el-table td, .el-table th.is-leaf
+      border none
+      // width: 100%;
+      // border:1px solid #EBEEF5;
+      // font-size:12px;
+.myPagination
+  .el-pagination{
+    text-align:right;
+    margin-top:20px;
+  }
+  .el-pagination.is-background .el-pager li:not(.disabled).active{
+    background:#ff6461 !important;
+  }
+  .el-pagination.is-background .el-pager li {
+    border: 1px solid #e2e2e2;
+    background:#ffffff;
+  }
+  .el-pagination.is-background .el-pager li:not(.disabled):hover {
+      color: #ffffff;
+      background:#ff6461;
+  }
+  .el-pagination.is-background .btn-next,>>>.el-pagination.is-background .btn-prev{
+    border: 1px solid #e2e2e2;
+    background:#ffffff;
+    font-size:12px;
+    padding:0 5px;
+  }
+.el-loading-mask{
+  font-size:35px;
+}
+.el-loading-spinner .el-loading-text{
+  font-size:16px;  
+}
+// .el-loading-spinner i{
+//   color:#000;
+// }
+// .el-loading-spinner .el-loading-text{
+//   color:#000;
+// }
+.el-message-box{
+  width: auto;
+  min-width:275px;
+}

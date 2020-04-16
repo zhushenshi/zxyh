@@ -1,0 +1,237 @@
+.Reg_header {
+	width: 100%;
+	height: 115pt;
+	line-height: 115pt;
+	text-align: center;
+}
+
+.Reg_nav {
+	width: 100%;
+}
+
+.Reg_nav_ul {
+	width: 89.3%;
+	margin: auto;
+}
+
+.Reg_li {
+  position: relative;
+	width: 100%;
+	height: 45pt;
+	padding: 20pt 0 10pt 0;
+	box-sizing: border-box;
+	border-bottom: 1px solid #ECECEC;
+}
+
+.Reg_p1 {
+	width: 10.75%;
+	height: 100%;
+	text-align: center;
+	border-right: 1px solid #ECECEC;
+}
+
+.Reg_p2 {
+	font-family: PingFangSC-Regular;
+	font-size: 14px;
+	color: #B0B0B0;
+	letter-spacing: 1.45px;
+	margin-left: 3.2%;
+}
+
+.yzm {
+	width: 50%;
+}
+
+.Reg_p3 {
+	width: 42%;
+	height: 100%;
+	text-align: center;
+	font-family: PingFangSC-Regular;
+	font-size: 14px;
+	border-left: 1px solid #e7e7e7;
+	color: #F45620;
+	background-color: #FFFFFF;
+	letter-spacing: 1.45px;
+}
+
+.Reg_paw {
+	width: 81.6%;
+}
+
+.Reg_paw input {
+	width: 100%;
+}
+
+.Reg_Img {
+  position: absolute;
+  top: 24px;
+  right: 0;
+	width: 27%;
+  text-align: center;
+}
+
+.Reg_Prot {
+	font-family: PingFangSC-Medium;
+	font-size: 13px;
+	color: #AFAFAF;
+	letter-spacing: 1.47px;
+	margin-top: 26pt;
+	margin-bottom: 10pt;
+}
+
+.Reg_Prot_s {
+	font-family: PingFangSC-Medium;
+	font-size: 13px;
+	color: #F4642F;
+	letter-spacing: 1.47px;
+	line-height: 18px;
+}
+
+.Reg_btn {
+	width: 99%;
+	height: 44px;
+	line-height: 44px;
+	text-align: center;
+	background: #FFC99D;
+	border-radius: 5px;
+	font-family: PingFangSC-Medium;
+	font-size: 18px;
+	color: #FFFFFF;
+	letter-spacing: 3.27px;
+}
+.Reg_btn.active{
+	background-color:#FA7009;
+} 
+.shareView .mint-header{
+	background-color:#565656;
+	font-size: 12px;
+	color:#fff;
+}
+.shareView .mint-header-title{
+	font-size: 14px;
+}
+.shareView .Reg_header{
+	height: auto;
+	
+}
+.shareView .Reg_nav{
+	background: -webkit-linear-gradient(#f9c515,#feb54d); 
+	margin-bottom: 7rem;
+	padding-bottom: 5rem;
+}
+.share-rmb {
+	text-align: center;
+	color: #b44400;
+	margin-bottom: 12px;
+}
+.share-rmb span:last-child{
+	color: #f26b00
+}
+.shareView .Reg_li{
+	background: #fff;
+	height: 40px;
+	line-height: 40px;
+	padding: 0 0;
+	margin-bottom: 15px;
+	border-radius: 8px;
+}
+.shareView .Reg_li p{
+	height: 20px;
+	line-height: 20px;
+	margin-top: 10px;
+}
+.shareView .Reg_p3{
+	background: #fa7009;
+	color: #FFFFFF;
+	height: 102%;
+}
+/* .shareView .Reg_li:nth-child(2){
+	width: 80%;
+} */
+.shareView .Reg_btn{
+	background: #fcac1a;	
+	margin: 22px 0;
+	font-size: 15px;
+	border-radius: 8px;
+}
+.shareinfo{
+	border: 1px dashed #b44400;
+	width: 90%;
+	margin: 0 auto;
+	border-radius: 4px;
+	padding: 18px 24px;
+	box-sizing: border-box;
+	color: #b44400;
+
+}
+.shareinfo p:first-child{
+	text-align: center;
+	font-size: 13px;
+
+
+}
+.shareinfo p:nth-child(odd){
+	margin-bottom: 17px;
+}
+/* .share-img{
+	position: fixed;
+	left: 0;
+	top: 0;
+	z-index: 3;
+} */
+.share-bj{
+	position: fixed;
+	left: 0;
+	top: 0;
+	background: rgba(0,0,0,0.7);
+	width: 100%;
+	height: 100%;
+	z-index: 3;
+	
+}
+.sharepic{
+	text-align: center;
+	position: fixed;
+	z-index: 3;
+	left: 10%;
+	top: 20%;
+	width: 80%;
+
+}
+.sharepic img:nth-child(2){
+position: absolute;
+top: 0;
+}
+.sharepic input{
+	width: 40%;
+	background: #fa7009;
+	height: 32px;
+	color: #fff;
+	font-size: 13px;
+	border-radius: 5px;
+}
+.Reg_Img span{
+  background:url('../../assets/images/by.png') no-repeat center;
+  display:inline-block;
+  width: 20px;
+  height: 24px;
+  vertical-align: middle;
+}
+.Reg_Img span.active{
+	background:url('../../assets/images/AK-Open.png') no-repeat;
+
+  }
+.sinaActive .info-item .mint-field-core{
+	color:#000;
+	font-weight: normal;
+}
+.sinaActive .content .mint-field-core{
+	color:#000;
+	font-weight: normal;
+}
+.shareView .mint-button.is-disabled{
+	opacity: 1;
+}
+.shareView .Reg_btn{
+	background: #fa7009
+}

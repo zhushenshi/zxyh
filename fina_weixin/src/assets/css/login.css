@@ -1,0 +1,118 @@
+.logo{
+	width: 100%;
+	height: 155px;
+	box-sizing: border-box;
+	overflow: hidden;
+	text-align: center
+}
+.logo_img img{
+	width: 81px;
+	height: 81px;
+	margin-top: 38px;
+}
+.user{
+	width: 100%;
+	margin: auto;
+	height: 114pt;
+	padding: 0 5.3%;
+	box-sizing: border-box;
+}
+.user_name,.uesr_paw{
+	width: 100%;
+	height: 50%;
+	border-bottom: 1px solid #ECECEC;
+	box-sizing: border-box;
+	padding: 11pt 0;
+	display: -webkit-flex;
+    display: flex;
+}
+.user_name .name_l1{
+	width: 33pt;
+	height: 100%;
+	padding-left:12pt;
+	padding-top: 18pt;
+	box-sizing: border-box;
+}
+.user_name .name_l1 img{
+	width:12px;
+	height:19px;
+}
+.user_name .name_l2{
+	box-sizing: border-box;
+	width: 178pt;
+	margin-top: 17.5pt;
+	border-left: 1px solid #E7E7E7;
+}
+.paw_l1{
+	width: 33pt;
+	height: 100%;
+	padding-left:12pt;
+	padding-top: 18pt;
+	box-sizing: border-box;
+}
+.paw_l1 img{
+	width:14px;
+	height:17px;
+}
+.paw_l2{
+	margin-top: 17.5pt;
+	width: 178pt;
+	border-left: 1px solid #E7E7E7;
+}
+.name_l2 input,.paw_l2 input{
+	font-family: PingFangSC-Regular;
+	font-size: 14px;
+	color: #353535;
+	letter-spacing: 1.63px;
+	padding-left: 12pt;
+	box-sizing: border-box;
+}
+.logo_btn{
+	width: 88.5%;
+	height: 44px;
+	text-align: center;
+	line-height: 44px;
+	margin: auto;
+	margin-top: 40px;
+	background: #FFC99D;
+	border-radius: 5px;
+	font-family: PingFangSC-Medium;
+	font-size: 18px;
+	color: #FFFFFF;
+	letter-spacing: 3.27px;
+}
+.logo_btn1{
+	width: 88.5%;
+	height: 44px;
+	text-align: center;
+	line-height: 44px;
+	margin: auto;
+	margin-top: 40px;
+	background: #fa7009;
+	border-radius: 5px;
+	font-family: PingFangSC-Medium;
+	font-size: 18px;
+	color: #FFFFFF;
+	letter-spacing: 3.27px;
+}
+.Foot{
+	width: 88.5%;
+	height: 20pt;
+	overflow: hidden;
+	margin: auto;
+	margin-top: 10px;
+	font-family: PingFangSC-Medium;
+	font-size: 14px;
+	color: #535353;
+	letter-spacing: 0.23px;
+}
+.clear{
+	display:none;
+	position:absolute;
+	top:50%;
+	right:0;
+	margin-top:-8px;
+}
+.show{
+	display:block!important;
+}
